@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    background-color: #F3F3F3;
+}
+
+.titleContainer{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    /* border: solid 2px black; */
+}
+
+.titleContainer p{
+    font-size: 2em;
+    text-decoration: underline;
+    text-decoration-color: #618686;
+    font-family: 'Noto Serif', serif;
+}
+
+#titlePage{
+    font-family: 'Noto Serif', serif;
+}
+
+.descriptionContainer{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2.5%;
+}
+
+.descriptionContainer p{
+    font-size: 1em;
+	display: flex;
+    text-align: left;
+    font-family: 'Montserrat', serif;
+	line-height: 1.2;
+	font-weight: bold;
+}
+
+.mainContainer{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    /* border: solid 2px black;  */
+    padding: 2.5%;
+
+    margin-bottom: 5%;
+    display: block;
+    /* flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center; */
+}
+
+#container1{
+    background-image: url('../Media/Opcion-1-alt.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container2{
+    background-image: url('../Media/Opcion-2.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container3{
+    background-image: url('../Media/Opcion-3.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container4{
+    background-image: url('../Media/Opcion-4.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+    color: #1A2626;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: 0 auto;
+    text-align: center
+}
+.text p{
+    color: white;
+    font-size: 1em;
+    text-decoration: underline;
+    text-decoration-color: #9bd2d2 ;
+
+}
+
+/* #text3{
+    color: white;
+}
+
+#image3{
+    filter: invert(100%) 
+        sepia(100%) 
+        saturate(0%) 
+        hue-rotate(162deg) 
+        brightness(101%) 
+        contrast(104%);
+} */
+
+
+.image{
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.image img{
+    width: 100px;
+    height: 100px;
+    filter: invert(100%) 
+            sepia(100%) 
+            saturate(0%) 
+            hue-rotate(162deg) 
+            brightness(101%) 
+            contrast(104%);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+    height: auto;
+    background-color: #75A2A2;
+    margin-bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.contentFooter{
+
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+
+    color: white;
+
+    
+
+}
+
+.contentFooter2{
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+
+}
+
+.contentFooter p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.contentFooter a{
+    color: white;
+    transition: 0.5s;
+}
+
+.contentFooter a:hover{
+    color: rgb(193, 193, 193);
+}
+
+
+@media screen and (max-width:750px){
+    
+    
+    .titleContainer p{
+        font-size: 1.5em;
+    }
+
+    .descriptionContainer p{
+        text-align: left;
+    }
+}

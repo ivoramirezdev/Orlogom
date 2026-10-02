@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Orlogom | Contacto</title>
+        <link rel="stylesheet" href="CSS/navegation.css">
+        <link rel="stylesheet" href="CSS/contact.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="Media/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Media/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Media/favicon-16x16.png">
+        <link rel="manifest" href="Media/site.webmanifest">
+        <link rel="mask-icon" href="Media/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script>
+            function openNav() {
+                document.getElementById("sideBar").style.width = "250px";
+                }
+
+            function closeNav() {
+                document.getElementById("sideBar").style.width = "0";
+                
+                }
+
+        </script>    
+    </head>
+
+    <body>
+        <div name="navBar" id="navBar" class="navBar">
+            <div name="logo" id="logo" class="logoContainer">
+                <img src="Media/ORLOGOM_PNG_ORIGINAL.png">
+            </div>
+            <a href="index.html"><b>Inicio</b></a>
+            <a href="quienes.html"><b>¿Quienes somos?</b></a>
+            <a href="mejor_opcion.html"><b>Tu mejor elección</b></a>
+            <a href="nosotros.html"><b>Nosotros</b></a>
+            <a href="contacto.html"><b>Contacto</b></a>
+            <a href="domtec.html"><b id="domtecMenu" >Domtec</b></a>
+        </div>
+        
+        <div name="sideBar" id="sideBar" class="sideBar">
+            <ul name="unordL" id="unordL" class="unordL">
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="javascript:void(0)" class="closeButton" onclick="closeNav();">&times;</a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="index.html"><b>Inicio</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="quienes.html"><b>¿Quienes somos?</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="mejor_opcion.html"><b>Tu mejor elección</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="nosotros.html"><b>Nosotros</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="contacto.html"><b>Contacto</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="domtec.html"><b>Domtec</b></a>
+                </li>
+            </ul>
+
+        </div>
+
+        <span class="hamburguer" style="font-size: 30px;cursor: pointer;" onclick="openNav();">&#9776;&nbsp;&nbsp;</span>
+        <div name="mobileNavBar" id="mobileNavBar" class="mobileNavBar">
+            <img src="Media/ORLOGOM_PNG_ORIGINAL.png">
+        </div>
+        <!-- FIN DE MENUS -->
+        <div name="contactContainer" id="contactContainer" class="contactContainer">
+
+           
+            <div name="formContainer" id="formContainer" class="formContainer">
+
+                <div>
+                    <p>También puede contactarnos a través de nuestro formulario de contacto.</p>
+                </div>
+                
+                <form method="POST" action="correo.php">
+                    <label>Nombre</label>
+                    <input name="Nombre Cliente" id="nameInput" type="text" placeholder="Nombre" class="inputForm">
+                    <label>Correo</label>
+                    <input name="Correo" id="emailInput" type="email" placeholder="Correo Electrónico" class="inputForm">
+                    <label>Asunto</label>
+                    <input name="Asunto" id="subjectInput" type="text" placeholder="Asunto" class="inputForm">
+                    <label>Mensaje</label>
+                    <textarea name="Mensaje" id="messageInput" placeholder="Escriba aquí su mensaje..."></textarea>
+                    <input type="submit" class="buttonForm">
+                </form>
+            </div>
+
+            <div name="cardsContainer" id="cardsContainer" class="cardsContainer">
+                <div name="title" id="title" class="titleCard">
+                    <p>Medios de contacto</p>
+                </div>
+                
+                <div name="phone" id="phone" class="contactBox">
+                    <div style="margin-top: 2.5%;"><i class="material-icons" style="font-size:36px;">call</i></div>
+                    <p>&nbsp;&nbsp;+52 624 235 8866</p>
+                </div>
+
+                <div name="email" id="email" class="contactBox">
+                    <div style="margin-top: 2.5%;"><i class="material-icons" style="font-size:36px;">mail_outline</i></div>
+                    <p>&nbsp;&nbsp;ventas@orlogom.mx</p>
+                </div>
+
+                <div name="location" id="location" class="contactBox">
+                    <div style="margin-top: 2.5%;"><i class="material-icons" style="font-size:36px;">location_on</i></div>
+                    <p>&nbsp;&nbsp;Los Cabos, Baja California Sur.</p>
+                </div>
+            </div>
+            
+
+
+        </div>
+
+
+
+
+
+        <footer>
+
+            <div name="contentFooter" id="contentFooter" class="contentFooter">
+                <a href="index.html"><p>Inicio</p></a>
+                <a href="quienes.html"><p>¿Quienes somos?</p></a>
+                <a href="mejor_opcion.html"><p>Tu mejor elección</p></a>
+                <a href="nosotros.html"><p>Nosotros</p></a>
+                <a href="contacto.html"><p>Contacto</p></a>
+                <a href="domtec.html"><p>Domtec</p></a>
+            </div>
+
+            <div name="contentFooter2" id="contentFooter2" class="contentFooter2">
+                <img style="width: 100px; height: 100px;" src="Media/ORLOGOM_PNG_BLANCO.png">
+            </div>
+        
+
+        </footer>
+
+        
+    </body>
+    
+
+</html>

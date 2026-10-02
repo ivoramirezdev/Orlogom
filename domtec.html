@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/navegation.css">
+        <link rel="stylesheet" href="CSS/domtec.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="Media/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Media/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Media/favicon-16x16.png">
+        <link rel="manifest" href="Media/site.webmanifest">
+        <link rel="mask-icon" href="Media/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script>
+            function openNav() {
+                document.getElementById("sideBar").style.width = "250px";
+                }
+
+            function closeNav() {
+                document.getElementById("sideBar").style.width = "0";
+                
+                }
+
+        </script>    
+    </head>
+
+    <body>
+        <div name="navBar" id="navBar" class="navBar">
+            <div name="logo" id="logo" class="logoContainer">
+                <img src="Media/ORLOGOM_PNG_ORIGINAL.png">
+            </div>
+            <a href="index.html"><b>Inicio</b></a>
+            <a href="quienes.html"><b>¿Quienes somos?</b></a>
+            <a href="mejor_opcion.html"><b>Tu mejor elección</b></a>
+            <a href="nosotros.html"><b>Nosotros</b></a>
+            <a href="contacto.html"><b>Contacto</b></a>
+            <a href="domtec.html"><b id="domtecMenu" >Domtec</b></a>
+        </div>
+        
+        <div name="sideBar" id="sideBar" class="sideBar">
+            <ul name="unordL" id="unordL" class="unordL">
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="javascript:void(0)" class="closeButton" onclick="closeNav();">&times;</a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="index.html"><b>Inicio</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="quienes.html"><b>¿Quienes somos?</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="mejor_opcion.html"><b>Tu mejor elección</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="nosotros.html"><b>Nosotros</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="contacto.html"><b>Contacto</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="domtec.html"><b>Domtec</b></a>
+                </li>
+            </ul>
+
+        </div>
+
+        <span class="hamburguer" style="font-size: 30px;cursor: pointer;" onclick="openNav();">&#9776;&nbsp;&nbsp;</span>
+        <div name="mobileNavBar" id="mobileNavBar" class="mobileNavBar">
+            <img src="Media/ORLOGOM_PNG_ORIGINAL.png">
+        </div>
+        <!-- FIN DE MENUS -->
+
+        <div name="stickyDropdown" id="stickyDropdown" class="stickyDropdown">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Navega</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#domtecTop">DOMTEC</a>
+                  <a href="#nosotros">Nosotros</a>
+                  <a href="#misvis">Misión y Visión</a>
+                  <a href="#valores">Valores</a>
+                  <a href="#productos">Productos</a>
+                </div>
+            </div>
+        </div>
+
+        <span name="domtecTop" id="domtecTop"></span>
+        <div class="topContainer">
+            <div class="imageContainer">
+                <img src="Media/DOMTECT-TEST.png">
+            </div>
+        </div>
+
+
+
+        <div class="InfoContainer" name="encabezado" id="encabezado">
+            
+            <p><b>DOMTEC, tu socio en la transformación de hogares
+                inteligentes en Baja California Sur. Nuestra pasión es llevar
+                comodidad, eficiencia y sostenibilidad a tu vida diaria. Con
+                soluciones tecnológicas avanzadas, hacemos tu hogar más
+                inteligente, seguro y valioso. Únete a nosotros en este
+                emocionante viaje hacia un hogar más inteligente y
+                sostenible. ¡Contáctanos hoy y mejora tu estilo de vida con
+                DOMTEC! THINK PLACES.</b>
+                </p>
+        </div>
+
+
+
+        <div name="mainInfoContainer" id="mainInfoContainer" class="mainInfoContainer">
+            <div name="stickyContainer" id="stickyContainer" class="stickyContainer">
+                <div class="secondaryMenuContainer">
+                    <a href="#domtecTop">
+                        <div class="secondaryMenuOption">
+                            <p>DOMTEC</p>
+                        </div>
+                    </a>
+                    <a href="#nosotros">
+                        <div class="secondaryMenuOption">
+                            <p>Nosotros</p>
+                        </div>
+                    </a>
+                    <a href="#misvis">
+                        <div class="secondaryMenuOption">
+                            <p>Misión y Visión</p>
+                        </div>
+                    </a>
+                    <a href="#valores">
+                        <div class="secondaryMenuOption">
+                            <p>Valores</p>
+                        </div>
+                    </a>
+
+                    <a href="#productos">
+                        <div class="secondaryMenuOption">
+                            <p>Productos</p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        
+
+
+
+            <script>
+                                /* When the user clicks on the button,
+                toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+                }
+
+                // Close the dropdown menu if the user clicks outside of it
+                window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                    }
+                }
+                }
+            </script>
+
+            <div class="asideInfo" name="nosotros" id="nosotros">
+                <span name="nosotros" id="nosotros"></span>
+                <h2>Nosotros</h2>
+                <p> DOMTEC, tu socio en la transformación de hogares
+                    inteligentes.
+                    En DOMTEC, nuestra pasión es llevar la comodidad y la
+                    eficiencia a tu vida diaria, mientras te ayudamos a hacer un
+                    impacto positivo en el medio ambiente. Nuestro enfoque se
+                    centra en convertir tu hogar en un espacio más inteligente,
+                    seguro y sostenible.
+                    Nos enorgullece ofrecer soluciones tecnológicas avanzadas y
+                    sostenibles que no solo mejoran tu calidad de vida, sino que
+                    también hacen que tu hogar sea más eficiente y valioso.
+                    Nuestra dedicación a la innovación, la calidad y la
+                    satisfacción del cliente nos convierte en tu elección ideal
+                    para la transformación de hogares inteligentes.
+                    Únete a nosotros en el viaje hacia un hogar más inteligente y
+                    sostenible. ¡Contáctanos hoy y descubre cómo podemos
+                    mejorar tu estilo de vida! THINK PLACES.
+                </p>
+
+
+                <span name="misvis" id="misvis"></span>
+                <h2>Misión y visión</h2>
+                <h3>Misión</h3>
+                <p>Nuestra misión es transformar hogares en espacios
+                    inteligentes y eficientes, mejorando la calidad de vida de
+                    nuestros clientes. Nos dedicamos a proporcionar soluciones
+                    innovadoras y sostenibles, incluyendo la automatización de
+                    persianas, cortinas antihuracán, cubiertas para albercas y
+                    paneles solares, con el objetivo de crear ambientes más
+                    seguros, cómodos y energéticamente eficientes para las
+                    familias
+                </p>
+                <h3>Visión</h3>
+                <p>Nuestra visión es liderar la revolución de los hogares
+                    inteligentes, siendo el referente en soluciones de
+                    automatización que permiten un mayor control, seguridad y
+                    sostenibilidad en los hogares. Aspiramos a ser reconocidos
+                    por nuestra innovación y contribución a un mundo más limpio
+                    y conectado, donde cada hogar sea un ejemplo de eficiencia
+                    energética y comodidad.
+                </p>
+
+                <span name="valores" id="valores"></span>
+                <h2>
+                    Valores
+                </h2>
+                <p name="punto" id="punto" class="punto">
+                    Inovación
+                </p>
+                <p name="cotenidoPunto" id="contenidoPunto" class="contenidoPunto">
+                    Promovemos la innovación constante en la
+                    automatización del hogar, buscando soluciones avanzadas y
+                    fiables para nuestros clientes.
+                </p>
+    
+    
+                <p name="punto" id="punto" class="punto">
+                    Calidad
+                </p>
+                <p name="cotenidoPunto" id="contenidoPunto" class="contenidoPunto">
+                    Nos comprometemos con la calidad excepcional en
+                    cada producto y servicio que ofrecemos, garantizando la
+                    satisfacción del cliente.
+    
+                </p>
+                
+    
+                <p name="punto" id="punto" class="punto">
+                    sostenibilidad
+                </p>
+                <p name="cotenidoPunto" id="contenidoPunto" class="contenidoPunto">
+                    Estamos comprometidos con la
+                    sostenibilidad y promovemos la adopción de soluciones
+                    respetuosas con el medio ambiente, como los paneles
+                    solares.
+                </p>
+                
+    
+                <p name="punto" id="punto" class="punto">
+                    Integridad
+                </p>
+                <p name="cotenidoPunto" id="contenidoPunto" class="contenidoPunto">
+                    Operamos con honestidad y transparencia en
+                    todas nuestras interacciones, construyendo relaciones de
+                    confianza con nuestros clientes.
+    
+                </p>
+                
+    
+                <p name="punto" id="punto" class="punto">
+    
+                    Excelencia en el servicio al cliente
+                </p>
+                <p name="cotenidoPunto" id="contenidoPunto" class="contenidoPunto">
+                    Brindamos un servicio
+                    al cliente excepcional, desde la consulta inicial hasta la
+                    instalación y el soporte continuo.</p>
+                
+    
+                <p name="punto" id="punto" class="punto">
+                    Seguridad
+                </p>
+                <p name="cotenidoPunto" id="contenidoPunto" class="contenidoPunto">
+                    Priorizamos la seguridad de los hogares al
+                    ofrecer soluciones como cortinas antihuracán que protegen
+                    a las familias en momentos críticos.
+                </p>
+
+                <span name="productos" id="productos"></span>
+                <h2>¿Qué te ofrecemos?</h2>
+
+                
+                <div name="productsContainer" id="productsContainer" class="productsContainer">
+                    <div name="pCard" id="pCard1" class="pCard">
+                        <p name="producto" id="producto1" class="nombreProducto">Cubierta Automática para Alberca</p>
+                        
+                        <div class="imageCardContainer" id="imageClassContainer1" class="imageCardContainer">
+                            <img class="imageCard" src="Media/cubiertaAuto.png">
+                        </div>
+                        <p name="descripcionP" id="descripcionP1" class="descripcionP">Disfruta de tu alberca
+                            durante todo el año con nuestra cubierta automática.
+                            Controla la temperatura del agua y la seguridad de tu
+                            alberca con facilidad, lo que hace que tu espacio al aire
+                            libre sea más versátil y atractivo.</p>
+                    </div>
+                    
+                    
+                    <div name="pCard" id="pCard2" class="pCard">
+                        <p name="producto" id="producto2" class="nombreProducto">Persianas automáticas</p>
+                        
+                        <div class="imageCardContainer" id="imageClassContainer2" class="imageCardContainer">
+                            <img class="imageCard" src="Media/persianasAuto.png">
+                        </div>
+                        <p name="descripcionP" id="descripcionP2" class="descripcionP">
+                            Experimenta un control total sobre
+                            la iluminación y la privacidad de tu hogar con nuestras
+                            persianas automáticas. Con un simple toque, puedes ajustar
+                            la luz y la temperatura de cualquier habitación, todo desde
+                            la comodidad de tu dispositivo móvil.
+                        </p>
+                    </div>
+
+                    
+                    <div name="pCard" id="pCard3" class="pCard">
+                        <p name="producto" id="producto3" class="nombreProducto">Cortinas antihuracán</p>
+                        
+                        <div class="imageCardContainer" id="imageClassContainer3" class="imageCardContainer">
+                            <img class="imageCard" src="Media/cortinaAnti.png">
+                        </div>
+                        <p name="descripcionP" id="descripcionP3" class="descripcionP">
+                            Protege tu hogar de las inclemencias
+                            del tiempo con nuestras cortinas antihuracán de alta
+                            resistencia. Estas cortinas no solo brindan seguridad durante
+                            las tormentas, sino que también mejoran la eficiencia
+                            energética de tu hogar.
+                        </p>
+                    </div>
+
+
+                    <div name="pCard" id="pCard4" class="pCard">
+                        <p name="producto" id="producto4" class="nombreProducto">Paneles solares</p>
+                        
+                        <div class="imageCardContainer" id="imageClassContainer4" class="imageCardContainer">
+                            <img class="imageCard" src="Media/panelesSol.png">
+                        </div>
+                        <p name="descripcionP" id="descripcionP4" class="descripcionP">
+                            Únete a la revolución energética y reduce
+                            tus facturas de electricidad con nuestros paneles solares de
+                            alta calidad. Genera tu propia energía limpia y contribuye a
+                            la preservación del medio ambiente mientras ahorras dinero.
+                        </p>
+                    </div>
+
+                </div>
+                
+            
+            </div>
+
+        </div> 
+
+
+
+
+
+
+        <!-- FIN DE CONTENIDOS -->
+        <footer>
+
+            <div name="contentFooter" id="contentFooter" class="contentFooter">
+                <a href="index.html"><p>Inicio</p></a>
+                <a href="quienes.html"><p>¿Quienes somos?</p></a>
+                <a href="mejor_opcion.html"><p>Tu mejor elección</p></a>
+                <a href="nosotros.html"><p>Nosotros</p></a>
+                <a href="contacto.html"><p>Contacto</p></a>
+                <a href="domtec.html"><p>Domtec</p></a>
+            </div>
+
+            <div name="contentFooter2" id="contentFooter2" class="contentFooter2">
+                <img style="width: 100px; height: 100px;" src="Media/ORLOGOM_PNG_BLANCO.png">
+            </div>
+        
+
+        </footer>
+
+        
+    </body>
+    
+
+</html>

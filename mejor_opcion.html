@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Orlogom | Tu mejor elección</title>
+        <link rel="stylesheet" href="CSS/navegation.css">
+        <link rel="stylesheet" href="CSS/mejor_opcion.css">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="Media/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Media/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Media/favicon-16x16.png">
+        <link rel="manifest" href="Media/site.webmanifest">
+        <link rel="mask-icon" href="Media/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <script>
+            function openNav() {
+                document.getElementById("sideBar").style.width = "250px";
+                }
+
+            function closeNav() {
+                document.getElementById("sideBar").style.width = "0";
+                
+                }
+
+        </script>    
+    </head>
+
+    <body>
+        <div name="navBar" id="navBar" class="navBar">
+            <div name="logo" id="logo" class="logoContainer">
+                <img src="Media/ORLOGOM_PNG_ORIGINAL.png">
+            </div>
+            <a href="index.html"><b>Inicio</b></a>
+            <a href="quienes.html"><b>¿Quienes somos?</b></a>
+            <a href="mejor_opcion.html"><b>Tu mejor elección</b></a>
+            <a href="nosotros.html"><b>Nosotros</b></a>
+            <a href="contacto.html"><b>Contacto</b></a>
+            <a href="domtec.html"><b id="domtecMenu" >Domtec</b></a>
+        </div>
+        
+        <div name="sideBar" id="sideBar" class="sideBar">
+            <ul name="unordL" id="unordL" class="unordL">
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="javascript:void(0)" class="closeButton" onclick="closeNav();">&times;</a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="index.html"><b>Inicio</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="quienes.html"><b>¿Quienes somos?</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="mejor_opcion.html"><b>Tu mejor elección</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="nosotros.html"><b>Nosotros</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="contacto.html"><b>Contacto</b></a>
+                </li>
+                <li name="elementL" id="elementL" class="elementL">
+                    <a href="domtec.html"><b>Domtec</b></a>
+                </li>
+            </ul>
+
+        </div>
+
+        <span class="hamburguer" style="font-size: 30px;cursor: pointer;" onclick="openNav();">&#9776;&nbsp;&nbsp;</span>
+        <div name="mobileNavBar" id="mobileNavBar" class="mobileNavBar">
+            <img src="Media/ORLOGOM_PNG_ORIGINAL.png">
+        </div>
+        <!-- FIN DE MENUS -->
+        
+
+        <div name="titleContainer" id="titleContainer" class="titleContainer">
+            <p ><b id="titlePage">Tú mejor elección</b></p>
+        </div>
+
+        <div name="descriptionContainer" id="descriptionContainer" class="descriptionContainer">
+            <p>
+                ORLOGOM es tu mejor elección para brindarte suministros y sustentos
+                corporativos, ofreciendo una amplia gama de productos que abarcan desde
+                mobiliario y equipo de oficina hasta papelería, ferretería y jarciaría. Nuestra
+                empresa se distingue por brindar productos de alta calidad y un servicio al
+                cliente excepcional. Estamos aquí para satisfacer tus necesidades específicas.
+                <br>Con años de experiencia en el mercado, ORLOGOM simplifica el proceso de
+                aprovisionamiento, brindando soluciones personalizadas para contribuir al
+                éxito de tu negocio.
+            </p>
+        </div>
+
+        <div name="mainContainer" id="mainContainer" class="mainContainer">
+            <div name="container" id="container1" class="container">
+                <div name="text" id="text1" class="text">
+                    <p><b>Mobiliario y equipo de oficina</b></p>
+                </div>
+                
+                <div image="image" id="image1" class="image">
+                    <img src="Media/Escritorio.png">
+                </div> 
+            </div>
+    
+            <div name="container" id="container2" class="container">
+                <div name="text" id="text2" class="text">
+                    <p><b>Papelería</b></p>
+                </div>
+                
+                <div image="image" id="image2" class="image">
+                    <img src="Media/Papeleria.png">
+                </div> 
+            </div>
+    
+            <div name="container" id="container3" class="container">
+                <div name="text" id="text3" class="text">
+                    <p><b>Ferretería</b></p>
+                </div>
+                
+                <div image="image" id="image3" class="image">
+                    <img src="Media/herramientas.png">
+                </div> 
+            </div>
+    
+            <div name="container" id="container4" class="container">
+                <div name="text" id="text4" class="text">
+                    <p><b>Jarciería</b></p>
+                </div>
+                
+                <div image="image" id="image4" class="image">
+                    <img src="Media/limpieza.png">
+                </div> 
+            </div>
+        </div>
+
+
+        <footer>
+
+            <div name="contentFooter" id="contentFooter" class="contentFooter">
+                <a href="index.html"><p>Inicio</p></a>
+                <a href="#"><p>¿Quienes somos?</p></a>
+                <a href="#"><p>Tu mejor elección</p></a>
+                <a href="nosotros.html"><p>Nosotros</p></a>
+                <a href="contacto.html"><p>Contacto</p></a>
+                <a href="domtec.html"><p>Domtec</p></a>
+            </div>
+
+            <div name="contentFooter2" id="contentFooter2" class="contentFooter2">
+                <img style="width: 100px; height: 100px;" src="Media/ORLOGOM_PNG_BLANCO.png">
+            </div>
+        
+
+        </footer>
+
+        
+    </body>
+    
+
+</html>

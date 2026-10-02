@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    background-color: #F3F3F3;
+}
+
+.contactContainer{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.cardsContainer{
+    
+    
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    /* margin-top: 5%; */
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    /* box-shadow: 0px 0px 5px #1e1e1e30; */
+    background-color: #F3F3F3;
+    
+
+}
+
+.titleCard{
+    width: 80%;
+    height: auto;
+    
+    /* margin: 5%; */
+    padding-left: 2.5%;
+    /* text-decoration: underline;
+    text-decoration-color: #00817a; */
+}
+
+.titleCard p{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.contactBox{
+    width: 80%;
+    border-bottom: solid 0.5px #1e1e1e30;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5%;
+}
+
+
+.contactCard{
+
+    text-align: center;
+    /* border: solid 2px black; */
+    width: auto;
+    height: 75px;
+    margin: 5%;
+    padding: 2.5%;
+
+    /* border-radius: 15px; */
+    /* background-color: #00817a; */
+    color: black;
+    /* box-shadow: 0px 10px 10px #1e1e1e30 ; */
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+
+    transition: 0.5s;
+
+}
+
+/* .contactCard:hover{
+    height: 95px;
+    font-size: 1.25em;
+} */
+
+.contactCard img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    filter: invert(0%) 
+            sepia(4%) 
+            saturate(0%) 
+            hue-rotate(324deg) 
+            brightness(95%) 
+            contrast(105%);
+
+}
+
+.contactCard a{
+    color: black;
+}
+
+
+.formContainer{
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    /* border-radius: 10px; */
+    box-shadow: 0px 0px 10px #1e1e1e30;  
+    background-color: #F3F3F3;
+}
+
+form{
+    display: block;
+}
+
+label{
+    margin-top: 1.5%;
+    margin-left: 0.25%;
+    display: block;
+}
+
+textarea{
+    display: block;
+    width: 80%;
+    height: 150px;
+    overflow-y: scroll;
+    resize: none;
+    border: solid 0.5px #1e1e1e50;
+    background-color: #F3F3F3;
+    /* border-radius: 10px; */
+    padding: 1%;
+}
+
+.inputForm{
+    width: 80%;
+    height: 30px;
+    /* border-radius: 10px; */
+    border-bottom: solid 0.5px #1e1e1e50; 
+    border: solid 0.5px #1e1e1e50;
+    padding-left: 1%;
+    background-color: #F3F3F3;
+}
+
+.buttonForm{
+    margin-top: 1.5%;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 0.5px #1e1e1e50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #75A2A2;
+    margin-bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.contentFooter{
+
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+
+    color: white;
+
+    
+
+}
+
+.contentFooter2{
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+
+}
+
+.contentFooter p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.contentFooter a{
+    color: white;
+    transition: 0.5s;
+}
+
+.contentFooter a:hover{
+    color: rgb(193, 193, 193);
+}
+
+
+@media screen and (max-width: 420px) {
+    /* .contactCard img{
+        display: none;
+    } */
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .cardsContainer{
+
+        width: 80%;
+
+    
+    }
+
+
+    .formContainer{
+        width: 80%;
+
+    }
+
+    .contentFooter{
+        align-items: center;
+    }
+
+    .contactCard{
+        padding: 5%;
+    }
+
+    #especialElement{
+        margin-left: 0%;
+    }
+
+    #phoneCard{
+        font-size: 0.9em;
+    }
+
+    #emailCard{
+        font-size: 0.6em;
+    }
+
+    #locationCard{
+        font-size: 0.9em;
+    }
+
+}
